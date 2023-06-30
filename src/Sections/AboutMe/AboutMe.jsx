@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
-    <div className="flex flex-col md:flex-row-reverse items-center mb-28 md:w-3/4 mx-auto">
-      <div className="md:w-[3000px] lg:w-[1700px] w-3/4 mb-8">
+    <div className="flex flex-col md:flex-row-reverse items-center mb-28 mx-auto">
+      <div className="md:w-[3000px] lg:w-[2000px] w-3/4 mb-8">
         <img
           className="md:w-[400px] md:h-[300px] lg:w-[450px] lg:h-[450px] rounded-full"
           src="https://i.ibb.co/B3dP614/Untitled-design-2.png"
