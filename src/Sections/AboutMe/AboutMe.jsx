@@ -16,7 +16,7 @@ const AboutMe = () => {
           About Me
         </p>
         <p className="md:w-3/4 text-justify text-xl font-medium">
-          Hi, I am Saikot Roy, a MERN stack developer. I have been learning and
+          Hi, I am Saikot Roy Chandan, a MERN stack developer. I have been learning and
           developing for six months. During this learning period, I have
           acquired skills in HTML, CSS, JavaScript, React, Node.js, and
           Express.js. I have built several significant projects using these
