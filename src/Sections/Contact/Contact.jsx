@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <>
     <p className="text-center font-bold text-4xl font-serif mb-16">Contact Me</p>
-      <div className="md:flex mb-96 justify-between items-center">
+      <div className="md:flex pb-16 justify-between items-center">
         <div className="md:w-1/2">
           <Lottie options={LottieMail} />
         </div>
