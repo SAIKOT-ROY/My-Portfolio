@@ -3,6 +3,7 @@ import { BsLinkedin, BsFacebook } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { BsPhoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
+import { FiArrowDown } from "react-icons/fi";
 
 const AboutMe = () => {
   return (
@@ -53,7 +54,7 @@ const AboutMe = () => {
             </Link>
           </div>
         </div>
-        <div className="ml-4">
+        <div className="ml-4 mb-5">
           <p className="font-bold text-xl mb-2">Contact Info</p>
           <div className="flex gap-4">
             <p className="flex gap-2 items-center">
@@ -69,6 +70,12 @@ const AboutMe = () => {
               <span className="font-medium">saikotroydev@gmail.com</span>
             </p>
           </div>
+        </div>
+        <div>
+          <button className="btn ml-4 btn-md text-white btn-info bg-blue-500">
+            <span className="text-white"><FiArrowDown size={18} /></span>
+            <span>Resume</span>
+          </button>
         </div>
       </div>
     </div>
