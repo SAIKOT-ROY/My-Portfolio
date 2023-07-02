@@ -1,11 +1,12 @@
 import { BsEyeFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import { FaRegHandPointRight } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div className="grid justify-center items-center gap-8 grid-cols-1 md:grid-cols-1 mb-96">
-      <div className="flex justify-between">
-        <div className="border w-1/3 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
+    <div className="grid justify-center items-center gap-8 grid-cols-1 mb-20">
+      <div className="md:flex justify-between mb-4">
+        <div className="border md:w-1/3 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
           <div className="border relative group">
             <img
               className="h-[220px] w-[1200px] rounded-md"
@@ -32,15 +33,74 @@ const Projects = () => {
             <button className="btn btn-sm btn-outline">Server Code</button>
           </div>
         </div>
-        <div className="w-1/2">
-          <p>Hola senor</p>
+        <div className="md:w-1/2">
+          <p className="text-3xl mb-2 text-blue-500 font-bold">Chef Hunter</p>
+          <p className="font-bold mb-4">
+            This Project i Have Build To Displaying The Chef of Japanese
+            Restaurant And There Unique Dishes That are Famous
+          </p>
+          <div>
+            <p className="flex mb-2 gap-5 items-center">
+              <span>
+                <FaRegHandPointRight size={20} />
+              </span>
+              <span className="font-medium">
+                In This Web page you can see in top there is a navigation bar where you can browse to desired Route 
+              </span>
+            </p>
+            <p className="flex mb-2 gap-5 items-center">
+              <span>
+                <FaRegHandPointRight size={20} />
+              </span>
+              <span className="font-medium">
+                It is a responsive website and it has login and register system for register website
+              </span>
+            </p>
+            <p className="flex mb-2 gap-5 items-center">
+              <span>
+                <FaRegHandPointRight size={20} />
+              </span>
+              <span className="font-medium">
+                If you click on View Details page you can see chef details and there recipe details.  
+              </span>
+            </p>
+          </div>
         </div>
       </div>
-      <div className="flex justify-between">
-        <div>
-          <p>senor</p>
+      <div className="md:flex justify-between mb-4">
+      <div className="md:w-1/2">
+          <p className="text-3xl mb-2 text-blue-500 font-bold">Toy Story</p>
+          <p className="font-bold mb-4">
+            This Project of mine Called Toy store it has responsive design eye pleasing and user friendly 
+          </p>
+          <div>
+            <p className="md:flex mb-2 gap-5 items-center">
+              <span>
+                <FaRegHandPointRight size={20} />
+              </span>
+              <span className="font-medium">
+                In This Web page you can see in top there is a navigation bar where you can browse to desired Route 
+              </span>
+            </p>
+            <p className="flex mb-2 gap-5 items-center">
+              <span>
+                <FaRegHandPointRight size={20} />
+              </span>
+              <span className="font-medium">
+                It is a responsive website and it has login and register system for register website
+              </span>
+            </p>
+            <p className="flex mb-2 gap-5 items-center">
+              <span>
+                <FaRegHandPointRight size={20} />
+              </span>
+              <span className="font-medium">
+                If you click on View Details page you can see chef details and there recipe details.  
+              </span>
+            </p>
+          </div>
         </div>
-        <div className="border w-1/3 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
+        <div className="border md:w-1/3 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
           <div className="border relative group">
             <img
               className="h-[220px] w-[1200px] rounded-md"
@@ -68,8 +128,8 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between">
-        <div className="border w-1/3 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
+      <div className="md:flex justify-between gap-10 mb-4">
+        <div className="border md:w-1/3 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
           <div className="border relative group">
             <img
               className="h-[220px] w-[1200px] rounded-md"
@@ -97,7 +157,38 @@ const Projects = () => {
           </div>
         </div>
         <div>
-          <p>Senor</p>
+        <div className="md:w-3/4">
+          <p className="text-3xl mb-2 text-blue-500 font-bold">Summer Camp</p>
+          <p className="font-bold mb-4">
+            This Project of mine Called Toy store it has responsive design eye pleasing and user friendly 
+          </p>
+          <div>
+            <p className="flex mb-2 gap-5 items-center">
+              <span>
+                <FaRegHandPointRight size={20} />
+              </span>
+              <span className="font-medium">
+                In This Web page you can see in top there is a navigation bar where you can browse to desired Route 
+              </span>
+            </p>
+            <p className="flex mb-2 gap-5 items-center">
+              <span>
+                <FaRegHandPointRight size={20} />
+              </span>
+              <span className="font-medium">
+                It is a responsive website and it has login and register system for register website
+              </span>
+            </p>
+            <p className="flex mb-2 gap-5 items-center">
+              <span>
+                <FaRegHandPointRight size={20} />
+              </span>
+              <span className="font-medium">
+                If you click on View Details page you can see chef details and there recipe details.  
+              </span>
+            </p>
+          </div>
+        </div>
         </div>
       </div>
     </div>
