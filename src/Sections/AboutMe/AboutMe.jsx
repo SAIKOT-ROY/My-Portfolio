@@ -4,10 +4,25 @@ import { Link } from "react-router-dom";
 import { BsPhoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 import { FiArrowDown } from "react-icons/fi";
+import Pdf from "react-to-pdf";
+import { useRef } from "react";
 
 const AboutMe = () => {
+  const options = {
+    orientation: "portrait",
+    unit: "in",
+    format: [8.5, 11],
+  };
+
+  const downloadResume = () => {
+    window.location.href =
+      "https://drive.google.com/uc?export=download&id=1dC0-1BXKS1ka6OgQkbVTJtAIPYelnNbx";
+  };
+
+  const ref = useRef(null);
+
   return (
-    <div className="flex flex-col md:flex-row-reverse items-center mb-28 mx-auto">
+    <div className="flex flex-col md:flex-row-reverse items-center mb-16 mx-auto">
       <div className="md:w-[3000px] lg:w-[2000px] w-3/4 mb-8">
         <img
           className="md:w-[400px] md:h-[300px] lg:w-[450px] lg:h-[450px] rounded-full"
@@ -72,10 +87,21 @@ const AboutMe = () => {
           </div>
         </div>
         <div>
-          <button className="btn ml-4 btn-md text-white btn-info bg-blue-500">
-            <span className="text-white"><FiArrowDown size={18} /></span>
-            <span>Resume</span>
-          </button>
+          <Pdf targetRef={ref} options={options} filename="download.pdf">
+            {({ toPdf }) => (
+              <button
+                onClick={toPdf}
+                className="btn ml-4 btn-md text-white btn-info bg-blue-500"
+              >
+                <span className="text-white flex justify-center items-center gap-2" onClick={downloadResume}>
+                  <span>
+                    <FiArrowDown size={18} />{" "}
+                  </span>
+                  <span>Resume</span>
+                </span>
+              </button>
+            )}
+          </Pdf>
         </div>
       </div>
     </div>

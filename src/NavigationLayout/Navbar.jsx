@@ -1,8 +1,6 @@
 const Navbar = () => {
   return (
-    <div
-      className="navbar bg-base-200 mb-10 rounded-l shadow-sm max-w-[1800px] mx-auto"
-    >
+    <div className="navbar bg-base-200 font-bold mb-10 rounded-l shadow-sm max-w-[1800px] mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,33 +25,38 @@ const Navbar = () => {
              bg-gradient-to-l text-white bg-blue-500 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <a>About Me</a>
             </li>
             <li>
-                <a>About Me</a>
+              <a>Skill Bars</a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>My Projects</a>
+            </li>
+            <li>
+              <a>Contact Me</a>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost normal-case text-xl">Portfolio</a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
           <li>
             <a>About Me</a>
           </li>
           <li>
-            <a>Item 3</a>
+            <a>Skill Bars</a>
+          </li>
+          <li>
+            <a>My Projects</a>
+          </li>
+          <li>
+            <a>
+              <a>Contact Me</a>
+            </a>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
       </div>
     </div>
   );
