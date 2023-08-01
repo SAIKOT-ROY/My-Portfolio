@@ -6,13 +6,13 @@ import { TbServerBolt } from "react-icons/tb";
 
 const Projects = () => {
   return (
-    <>
+    <div id="projects">
       <p className="text-center font-bold text-4xl font-serif mb-16">
         My Projects
       </p>
       <div className="grid justify-center items-center gap-8 grid-cols-1 mb-20">
         <div className="md:flex justify-between mb-4">
-          <div className="border md:w-1/3 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
+          <div className="border md:w-1/3 relative group border-blue-800 mb-8 md:mb-0 rounded-lg bg-slate-100 pb-8">
             <div className="border relative group">
               <img
                 className="md:h-[220px] md:w-[1200px] rounded-md"
@@ -92,7 +92,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="md:flex justify-between mb-4">
+        <div className="flex md:flex-row flex-col-reverse justify-between mb-4">
           <div className="md:w-1/2">
             <p className="text-3xl mb-2 text-blue-500 font-bold">Toy Story</p>
             <p className="font-bold mb-4">
@@ -129,7 +129,7 @@ const Projects = () => {
               </p>
             </div>
           </div>
-          <div className="border md:w-1/3 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
+          <div className="border md:w-1/3 mb-8 md:mb-0 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
             <div className="border relative group">
               <img
                 className="md:h-[220px] md:w-[1200px] rounded-md"
@@ -174,7 +174,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="md:flex justify-between gap-10 mb-4">
-          <div className="border md:w-1/3 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
+          <div className="border mb-8 md:mb-0 md:w-1/3 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
             <div className="border relative group">
               <img
                 className="md:h-[220px] md:w-[1200px] rounded-md"
@@ -259,7 +259,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

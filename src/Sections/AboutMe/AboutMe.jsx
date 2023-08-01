@@ -14,15 +14,17 @@ const AboutMe = () => {
     format: [8.5, 11],
   };
 
+  // Go to Google And Search Google Drive Pdf link Generator   V/I
   const downloadResume = () => {
     window.location.href =
-      "https://drive.google.com/uc?export=download&id=1dC0-1BXKS1ka6OgQkbVTJtAIPYelnNbx";
+      "https://drive.google.com/uc?export=download&id=17m40_UX4A_nihbglvjrq7zV_NIZfFVbU"; 
   };
 
   const ref = useRef(null);
 
   return (
-    <div className="flex flex-col md:flex-row-reverse items-center mb-16 mx-auto">
+    <div id="about">
+      <div className="flex flex-col md:flex-row-reverse items-center mb-12 mx-auto">
       <div className="md:w-[3000px] lg:w-[2000px] w-3/4 mb-8">
         <img
           className="md:w-[400px] md:h-[300px] lg:w-[450px] lg:h-[450px] rounded-full"
@@ -104,6 +106,7 @@ const AboutMe = () => {
           </Pdf>
         </div>
       </div>
+    </div>
     </div>
   );
 };

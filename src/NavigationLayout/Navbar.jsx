@@ -1,6 +1,8 @@
+import { Link } from "react-scroll";
+
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-200 font-bold mb-10 rounded-l shadow-sm max-w-[1800px] mx-auto">
+    <div className="navbar bg-base-200 font-bold pb-4 mb-12 rounded-l shadow-sm max-w-[1800px] mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -25,36 +27,110 @@ const Navbar = () => {
              bg-gradient-to-l text-white bg-blue-500 rounded-box w-52"
           >
             <li>
-              <a>About Me</a>
+              <Link
+                to="about"
+                spy={true}
+                activeClass="border-b-4 border-[#67DB52]"
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                About Me
+              </Link>
             </li>
             <li>
-              <a>Skill Bars</a>
+              <Link
+                to="skill"
+                spy={true}
+                activeClass="border-b-4 border-[#67DB52]"
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Skills
+              </Link>
             </li>
             <li>
-              <a>My Projects</a>
+              <Link
+                to="projects"
+                spy={true}
+                activeClass="border-b-4 border-[#67DB52]"
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                My Projects
+              </Link>
             </li>
             <li>
-              <a>Contact Me</a>
+              <Link
+                to="contact"
+                spy={true}
+                activeClass="border-b-4 border-[#67DB52]"
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Portfolio</a>
+        <a className="normal-case text-xl">Saikot Roy</a>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>About Me</a>
+            <Link
+              to="about"
+              spy={true}
+              activeClass="border-b-4 border-[#52a6db]"
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="hover:border-b-4 hover:border-[#52a6db]"
+            >
+              About Me
+            </Link>
           </li>
           <li>
-            <a>Skill Bars</a>
+            <Link
+              to="skill"
+              spy={true}
+              activeClass="border-b-4 border-[#67DB52]"
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="hover:border-b-4 hover:border-[#52a6db]"
+            >
+              My Skills
+            </Link>
           </li>
           <li>
-            <a>My Projects</a>
+            <Link
+              to="projects"
+              spy={true}
+              activeClass="border-b-4 border-[#67DB52]"
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="hover:border-b-4 hover:border-[#52a6db]"
+            >
+              My Projects
+            </Link>
           </li>
           <li>
-            <a>
-              <a>Contact Me</a>
-            </a>
+            <Link
+              to="contact"
+              spy={true}
+              activeClass="border-b-4 border-[#67DB52]"
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="hover:border-b-4 hover:border-[#52a6db]"
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
