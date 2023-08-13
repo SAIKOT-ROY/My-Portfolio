@@ -7,7 +7,7 @@ import SkillProgress from "../../Sections/SkillProgress/SkillProgress";
 import useTitle from "../../Title/useTitle";
 
 const Home = () => {
-  useTitle('My-Portfolio')
+  useTitle('SAIKOT-ROY-PORTFOLIO')
 
   return (
     <div className="max-w-7xl mx-auto">

@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="grid justify-center items-center gap-8 grid-cols-1 mb-20">
         <div className="md:flex justify-between mb-4">
           <div className="border md:w-1/3 relative group border-blue-800 mb-8 md:mb-0 rounded-lg bg-slate-100 pb-8">
-            <div className="border relative group">
+            <div className="relative group">
               <img
                 className="md:h-[220px] md:w-[1200px] rounded-md"
                 src="https://i.ibb.co/4TSHQ4Z/ramen.png"
@@ -28,7 +28,7 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-10 flex gap-3 ml-2">
+            <div className="mt-10 flex gap-3 justify-center items-center">
               <Link
                 to="https://the-chef-hunting-10.web.app/?fbclid=IwAR0JQHr6bFxBEQv7GM4wBhuIxAc7BPzkehOyLNf54oOj5zsEOcCG-8XITwc"
                 className="btn btn-sm bg-sky-600 text-white hover:bg-blue-400"
@@ -145,7 +145,7 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-10 flex gap-3 ml-2">
+            <div className="mt-10 flex gap-3 justify-center items-center">
               <Link
                 to="https://toy-store-e89c4.web.app/"
                 className="btn btn-sm bg-sky-600 text-white hover:bg-blue-400"
@@ -174,11 +174,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="md:flex justify-between gap-10 mb-4">
-          <div className="border mb-8 md:mb-0 md:w-1/3 relative group border-blue-800 rounded-lg bg-slate-100 pb-8">
-            <div className="border relative group">
+          <div className="mb-8 md:mb-0 md:w-1/3 relative group border-2 border-blue-300 rounded-lg bg-gray-100 pb-8">
+            <div className="relative group">
               <img
                 className="md:h-[220px] md:w-[1200px] rounded-md"
-                src="https://i.ibb.co/60bF0N9/camp.png"
+                src="https://i.ibb.co/Xx0kznr/summer-camp-58a17-web-app-6.png"
                 alt=""
               />
               <div className="hidden rounded-md group-hover:block absolute top-0 left-0 right-0 pt-24 bg-gray-900 bg-opacity-75 h-full">
@@ -190,7 +190,7 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-10 flex gap-3 ml-2">
+            <div className="mt-10 flex gap-3 justify-center items-center">
               <Link
                 to="https://summer-camp-58a17.web.app/"
                 className="btn btn-sm bg-sky-600 text-white hover:bg-blue-400"

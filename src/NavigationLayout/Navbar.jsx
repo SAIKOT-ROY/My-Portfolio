@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-200 font-bold pb-4 mb-12 rounded-l shadow-sm max-w-[1800px] mx-auto">
+    <div className="navbar font-bold mb-12 rounded-lg shadow-md max-w-[1800px] mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -24,7 +24,7 @@ const Navbar = () => {
           <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow
-             bg-gradient-to-l text-white bg-blue-500 rounded-box w-52"
+             bg-gradient-to-l bg-blue-100 rounded-box w-52"
           >
             <li>
               <Link
@@ -76,7 +76,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="normal-case text-xl">Saikot Roy</a>
+        <a className="text-2xl ml-8">Saikot Roy</a>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

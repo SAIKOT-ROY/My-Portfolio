@@ -27,8 +27,8 @@ const AboutMe = () => {
       <div className="flex flex-col md:flex-row-reverse items-center mb-12 mx-auto">
       <div className="md:w-[3000px] lg:w-[2000px] w-3/4 mb-8">
         <img
-          className="md:w-[400px] md:h-[300px] lg:w-[450px] lg:h-[450px] rounded-full"
-          src="https://i.ibb.co/B3dP614/Untitled-design-2.png"
+          className="md:w-[350px] md:h-[400px] lg:w-[360px] lg:h-[430px] rounded-3xl"
+          src="https://i.ibb.co/Y04cPF8/Untitled-design-4.png"
           alt=""
         />
       </div>
